@@ -13,7 +13,7 @@
 
 xdg-open https://github.com/vinicius3w/if1004-DevOps
 
-![](https://github.com/pedrojsn96/if1004-DevOps/blob/master/exercises/hw1/screen-capture.mp4)
+Link do video: https://github.com/pedrojsn96/if1004-DevOps/blob/master/exercises/hw1/screen-capture.mp4 
 
 ## Concepts
 
