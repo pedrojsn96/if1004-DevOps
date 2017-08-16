@@ -6,9 +6,10 @@ Desmistificando Microsserviços e DevOps: Projetando Arquiteturas Efetivamente E
 
 ## Sistemas de Informação, [Centro de Informática](http://www.cin.ufpe.br), ([UFPE](http://www.ufpe.br))
 
-### Professor Vinicius Cardoso Garcia ([vcg@cin.ufpe.br](mailto:vcg@cin.ufpe.br))
+### Instrutores
 
-### Teach Assistant José Fernando Santos de Carvalho ([jfsc@cin.ufpe.br](mailto:jfsc@cin.ufpe.br))
+* **Professor** Vinicius Cardoso Garcia ([vcg@cin.ufpe.br](mailto:vcg@cin.ufpe.br))
+* **Teaching Assistant** José Fernando Santos de Carvalho, _Fish_, ([jfsc@cin.ufpe.br](mailto:jfsc@cin.ufpe.br))
 
 ### Local
 
@@ -33,7 +34,7 @@ Não há livro texto obrigatório. Entretanto, a seguir estão alguns livros que
 - [Systems Performance: Enterprise and the Cloud](http://www.brendangregg.com/sysperfbook.html)
 - [The Practice of Cloud System Administration](http://www.the-cloud-book.com/)
 
-### Ferramentas, Frameworks e Tecnologias
+### Bibliografia sobre Ferramentas, Frameworks e Tecnologias
 
 - [Caixa de Ferramentas DevOps: Um guia para construção, administração e arquitetura de sistemas modernos](https://www.casadocodigo.com.br/products/livro-ferramentas-devops)
 - [DevOps na prática: entrega de software confiável e automatizada](https://www.casadocodigo.com.br/products/livro-devops)
@@ -64,7 +65,24 @@ Para participar deste curso é desejável que os participantes tenham:
 
 - Conhecimento **básico de inglês técnico** para leitura, estudo e acompanhamento das atividades propostas, uma vez que a maior parte do material disponível está em inglês.
 - Conhecimento básico de arquitetura de computador, sistemas operacionais, redes, engenharia de software e banco de dados.
+- Conhecimento de modelos de processo de desenvolvimento de software, em especial Metodologias Ágeis, testes de software. COnhecimento em TDD e BDD serão uma vantagem. Maiores informações podem ser consultadas no site da disciplina de [Engenharia de Software (IF977)](http://www.cin.ufpe.br/~if977).
 - Experiência em sistemas de computação, armazenamento, infraestruturas de rede e computação em nuvem será uma vantagem.
+
+### Recursos
+
+[Slack team](http://if1004-2017-2.slack.com)
+
+#### Artigos
+
+* [An empirical study on principles and practices of continuous delivery and deployment](https://peerj.com/preprints/1889.pdf)
+
+#### Glossário de Ferramentas
+
+* http://newrelic.com/devops/toolset
+
+#### Referências de outros cursos correlatos
+
+- [DevOps: CSC 519](https://github.com/CSC-DevOps/Course)
 
 
 ### Avaliação
@@ -82,9 +100,35 @@ Para participar deste curso é desejável que os participantes tenham:
 
 ### Plano de aulas
 
-| Class    | Date    | Topics                           |  Resources | Assignments       |
-|----------|----------|----------------------------------|------------| ----------------  |
-| 01   | Aug 07   | [Welcome, Methodology, Course Introduction (Core Topics)](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-2017-2-01.pdf) |  [Reading 01](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-2017-2-reading01.pdf) | [HW0]() |
-| 02   | Aug 09   | [Background: What is DevOps](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-2017-2-02.pdf) | [Reading 02](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-2017-2-reading02.pdf) | [HW1]() |
-| 03   | Aug 14   | Background: The Cloud as a Platform |            | |
-| 04   | Aug 16   | Background: Operations |            | |
+| Class         | Topics                      |  Resources      | Assignments       |
+|---------------|-----------------------------|-----------------| ----------------  |
+| Aug-07   | [Welcome, Methodology, Course Introduction (Core Topics)](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-01.pdf) |  [Reading-01](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-reading01.pdf) | [HW1](https://github.com/vinicius3w/if1004-DevOps/blob/master/HW/hw1.md) |
+| Aug-09   | [Background: What is DevOps](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-02.pdf) | [Reading-02](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-reading02.pdf) | [HW2](https://github.com/vinicius3w/if1004-DevOps/blob/master/HW/hw2.md) |
+| Aug-14   | [Background: The Cloud as a Platform](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-03.pdf) | [Suggestion](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-reading03-suggestion.pdf) | [Reading-03](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-reading03.pdf) |
+| Aug-16   | [Background: Operations](https://github.com/vinicius3w/if1004-DevOps/blob/master/lectures/if1004-devops-04.pdf) |  [Reading-04](https://peerj.com/preprints/1889.pdf) | [HW3](https://github.com/vinicius3w/if1004-DevOps/blob/master/HW/hw3.md) |
+|    | The Deployment Pipeline: Overall Architecture |            | |
+|    | The Deployment Pipeline: Building and Testing |            | |
+|    | The Deployment Pipeline: Deployment |            | |
+|    | Crosscutting Concerns: Monitoring |            | |
+|    | Crosscutting Concerns: Security and Security Audits |            | |
+|    | Crosscutting Concerns: Other \*Ilities |            | |
+|    | Crosscutting Concerns: Business Considerations |            | |
+|    | Case Studies: Supporting Multiple Datacenters |            | |
+|    | Case Studies: Implementing a Continuous Deployment Pipeline for Enterprises |            | |
+|    | Case Studies: Migrating to Microservices |            | |
+|    | Moving into the Future: Operations as a Process |            | |
+|    | Moving into the Future: The Future of DevOps |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
+|    |  |            | |
